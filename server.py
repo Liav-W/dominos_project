@@ -68,7 +68,7 @@ pygame.display.set_caption("Image Click Event")
 clock = pygame.time.Clock()
 running = True
 
-image = pygame.transform.rotate(pygame.image.load("Dominoes\\1x\\0_0.png"), 90)
+image = pygame.transform.rotate(pygame.image.load("Dominoes\\0.5x\\0_0@0.5x.png"), 90)
 image_rect = image.get_rect()
 
 image_rect.centerx = SCREEN_WIDTH // 2
